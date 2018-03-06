@@ -5,6 +5,7 @@ phases:
     commands:
       # Install composer
       - wget https://raw.githubusercontent.com/composer/getcomposer.org/c1ad3667731e9c5c1a21e5835c7e6a7eedc2e1fe/web/installer -O - -q | php -- --quiet
+      - apt-get install php-bcmath
   build:
     commands:
       - php composer.phar install --no-dev -o
