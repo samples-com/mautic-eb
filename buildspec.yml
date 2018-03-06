@@ -7,7 +7,7 @@ phases:
       - wget https://raw.githubusercontent.com/composer/getcomposer.org/88a69fda0f2187ad8714cedffd7a8872dceaa4c2/web/installer -O - -q | php -- --quiet
   build:
     commands:
-      - composer install --no-dev -o
+      - composer.phar install --no-dev -o
 
 artifacts:
   files:
