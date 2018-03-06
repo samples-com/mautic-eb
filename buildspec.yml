@@ -3,13 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      # Install composer
-      - wget https://raw.githubusercontent.com/composer/getcomposer.org/c1ad3667731e9c5c1a21e5835c7e6a7eedc2e1fe/web/installer -O - -q | php -- --quiet
-
       # Install bcmath dependency. Assumes we are using an official php docker image to build
       - docker-php-ext-install bcmath
   build:
     commands:
+      - wget https://raw.githubusercontent.com/composer/getcomposer.org/c1ad3667731e9c5c1a21e5835c7e6a7eedc2e1fe/web/installer -O - -q | php -- --quiet
       - php composer.phar install --no-dev -o
 
 artifacts:
