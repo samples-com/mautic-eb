@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - composer install --no-dev -o
+
+artifacts:
+  files:
+    - '**/*'
