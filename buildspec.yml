@@ -3,14 +3,20 @@ version: 0.2
 phases:
   install:
     commands:
-      - apt-get update && apt-get install git wget -y
+      - apt-get update && apt-get install git wget zip unzip zlib1g-dev -y
       - wget https://raw.githubusercontent.com/composer/getcomposer.org/c1ad3667731e9c5c1a21e5835c7e6a7eedc2e1fe/web/installer -O - -q | php -- --quiet
 
-      # Install bcmath dependency. Assumes we are using an official php docker image to build
+      # Install php extension dependencies. Assumes we are using an official php docker image to build
       - docker-php-ext-install bcmath
+      - docker-php-ext-install zip
   build:
     commands:
       - php composer.phar install --no-dev -o
+
+  post_build:
+    commands:
+      # Remove .git directories
+      - (find . -type d -name ".git" && find . -name ".gitignore" && find . -name ".gitmodules") | xargs rm -rf
 
 artifacts:
   files:
