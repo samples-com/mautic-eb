@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "49ab3beb0b9fdbf4a4c7d7eb38a2a452",
+    "content-hash": "1bc6879630e6e4c77a068cdb618fc0eb",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -3115,7 +3115,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mautic/mautic.git",
+                "url": "https://github.com/samples-com/mautic.git",
                 "reference": "master"
             },
             "require": {

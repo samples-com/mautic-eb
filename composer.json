@@ -16,7 +16,7 @@
         "version": "dev-master",
         "source": {
           "type": "git",
-          "url": "https://github.com/mautic/mautic.git",
+          "url": "https://github.com/samples-com/mautic.git",
           "reference": "master"
         },
         "require": {
