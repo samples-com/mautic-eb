@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fe927df5228683d11bdce4c75d2df15",
+    "content-hash": "49ab3beb0b9fdbf4a4c7d7eb38a2a452",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1620,16 +1620,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.9.0",
+            "version": "8.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "e6f3cb4d3f141b0e09f680963b4e6d6e19f913fb"
+                "reference": "f50b45cc50d9058797c037fc15e34d0511a4423e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/e6f3cb4d3f141b0e09f680963b4e6d6e19f913fb",
-                "reference": "e6f3cb4d3f141b0e09f680963b4e6d6e19f913fb",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/f50b45cc50d9058797c037fc15e34d0511a4423e",
+                "reference": "f50b45cc50d9058797c037fc15e34d0511a4423e",
                 "shasum": ""
             },
             "require": {
@@ -1684,7 +1684,7 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2018-02-22T11:04:17+00:00"
+            "time": "2018-03-07T12:33:46+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -3468,52 +3468,6 @@
             "time": "2014-03-12T12:54:23+00:00"
         },
         {
-            "name": "mustache/mustache",
-            "version": "v2.12.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~1.11",
-                "phpunit/phpunit": "~3.7|~4.0|~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Mustache": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
-                }
-            ],
-            "description": "A Mustache implementation in PHP.",
-            "homepage": "https://github.com/bobthecow/mustache.php",
-            "keywords": [
-                "mustache",
-                "templating"
-            ],
-            "time": "2017-07-11T12:54:05+00:00"
-        },
-        {
             "name": "mustangostang/spyc",
             "version": "0.6.2",
             "source": {
@@ -4810,16 +4764,16 @@
         },
         {
             "name": "sendgrid/php-http-client",
-            "version": "3.8.0",
+            "version": "3.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sendgrid/php-http-client.git",
-                "reference": "929018c62b7fcd99b3b356216ae75fff4d47b5a1"
+                "reference": "1d9aa9d2cb71691f4dd34a227d56a43f9c17c980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/929018c62b7fcd99b3b356216ae75fff4d47b5a1",
-                "reference": "929018c62b7fcd99b3b356216ae75fff4d47b5a1",
+                "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/1d9aa9d2cb71691f4dd34a227d56a43f9c17c980",
+                "reference": "1d9aa9d2cb71691f4dd34a227d56a43f9c17c980",
                 "shasum": ""
             },
             "require": {
@@ -4858,7 +4812,7 @@
                 "rest",
                 "sendgrid"
             ],
-            "time": "2017-09-13T16:52:38+00:00"
+            "time": "2018-03-11T15:36:54+00:00"
         },
         {
             "name": "sendgrid/sendgrid",
@@ -8106,147 +8060,17 @@
             "time": "2018-01-03T07:36:31+00:00"
         },
         {
-            "name": "thedmsgroup/mautic-contact-client-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-contact-client.git",
-                "reference": "3bc17c74d7db434a16330740ea44223596ad16e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-client/zipball/3bc17c74d7db434a16330740ea44223596ad16e1",
-                "reference": "3bc17c74d7db434a16330740ea44223596ad16e1",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0",
-                "mustache/mustache": "^2.12"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Create custom integrations without writing code.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2018-03-06T02:38:28+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-contact-source-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-contact-source.git",
-                "reference": "886969b5ea848a64ea4a578c3c3b28f941c39795"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-source/zipball/886969b5ea848a64ea4a578c3c3b28f941c39795",
-                "reference": "886969b5ea848a64ea4a578c3c3b28f941c39795",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Creates API endpoints for receiving contacts from external sources.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2018-03-06T17:06:50+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-eb-custom",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thedmsgroup/mautic-eb-custom.git",
-                "reference": "master"
-            },
-            "require": {
-                "mnsami/composer-custom-directory-installer": "1.1.*"
-            },
-            "type": "library",
-            "time": "2018-03-06T17:24:45+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-enhancer-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-enhancer.git",
-                "reference": "6bbc2403bc9a2286158942ae887a8d39888e0058"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-enhancer/zipball/6bbc2403bc9a2286158942ae887a8d39888e0058",
-                "reference": "6bbc2403bc9a2286158942ae887a8d39888e0058",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholai Bush",
-                    "email": "nicholaibush@yahoo.com"
-                },
-                {
-                    "name": "Scott Shipman",
-                    "email": "K.scott.shipman@gmail.com"
-                }
-            ],
-            "description": "Various contact enhancer integrations for Mautic.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2018-03-06T17:09:47+00:00"
-        },
-        {
             "name": "thedmsgroup/mautic-extended-field-bundle",
-            "version": "dev-master",
+            "version": "0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheDMSGroup/mautic-extended-field.git",
-                "reference": "4475f6234a3f2bab5ecec3f7bd535c3cc6d645c9"
+                "reference": "e4115cdf51be5d254e0ec99b34479ed055d09143"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-extended-field/zipball/4475f6234a3f2bab5ecec3f7bd535c3cc6d645c9",
-                "reference": "4475f6234a3f2bab5ecec3f7bd535c3cc6d645c9",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-extended-field/zipball/e4115cdf51be5d254e0ec99b34479ed055d09143",
+                "reference": "e4115cdf51be5d254e0ec99b34479ed055d09143",
                 "shasum": ""
             },
             "require": {
@@ -8278,7 +8102,7 @@
                 "marketing",
                 "plugin"
             ],
-            "time": "2018-03-06T17:08:41+00:00"
+            "time": "2018-03-08T01:21:37+00:00"
         },
         {
             "name": "twig/twig",
@@ -8973,16 +8797,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.2.17",
+            "version": "v2.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "12f95d20d7c8f6c2ee68d00a0fad74179ca75339"
+                "reference": "44f73c3e881805da5957ebd16ea87da9270cd5f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/12f95d20d7c8f6c2ee68d00a0fad74179ca75339",
-                "reference": "12f95d20d7c8f6c2ee68d00a0fad74179ca75339",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/44f73c3e881805da5957ebd16ea87da9270cd5f3",
+                "reference": "44f73c3e881805da5957ebd16ea87da9270cd5f3",
                 "shasum": ""
             },
             "require": {
@@ -9008,7 +8832,7 @@
                 "hhvm": "<3.18"
             },
             "require-dev": {
-                "johnkary/phpunit-speedtrap": "^1.0.1",
+                "johnkary/phpunit-speedtrap": "^1.0.1 || ^2.0 || ^3.0",
                 "justinrainbow/json-schema": "^5.0",
                 "keradus/cli-executor": "^1.0",
                 "mikey179/vfsstream": "^1.6",
@@ -9055,7 +8879,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2018-02-22T16:46:13+00:00"
+            "time": "2018-03-08T11:07:46+00:00"
         },
         {
             "name": "liip/functional-test-bundle",
@@ -10851,12 +10675,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "mautic/core": 20,
-        "willdurand/oauth-server-bundle": 20,
-        "thedmsgroup/mautic-eb-custom": 20,
-        "thedmsgroup/mautic-extended-field-bundle": 20,
-        "thedmsgroup/mautic-contact-client-bundle": 20,
-        "thedmsgroup/mautic-contact-source-bundle": 20,
-        "thedmsgroup/mautic-enhancer-bundle": 20
+        "willdurand/oauth-server-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
